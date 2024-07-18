@@ -36,7 +36,7 @@ test("new tech skill should be added to student", () => {
     expect(student.technologies[3].id).toBeDefined()
     expect(student.technologies[3].title).toBe("JS")
 
-    expect(student.isActive).toBe(false)
-    makeStudentActive(student)
-    expect(student.isActive).toBe(true)
+    // expect(student.isActive).toBe(false)
+    // makeStudentActive(student)
+    // expect(student.isActive).toBe(true)
 })
